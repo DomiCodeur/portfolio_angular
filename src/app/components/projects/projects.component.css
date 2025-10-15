@@ -143,4 +143,17 @@
   .projets-description p {
     min-height: auto;
   }
+  
+  .projet-links {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .projet-links a {
+    padding: 8px 12px;
+    font-size: 14px;
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+  }
 }
