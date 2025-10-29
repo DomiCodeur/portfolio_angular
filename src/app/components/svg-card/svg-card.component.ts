@@ -2,9 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { TranslationService } from '../../services/translation.service';
 
 @Component({
-  selector: 'app-svg-card',
-  templateUrl: './svg-card.component.html',
-  styleUrls: ['./svg-card.component.css'],
+    selector: 'app-svg-card',
+    templateUrl: './svg-card.component.html',
+    styleUrls: ['./svg-card.component.css'],
+    standalone: false
 })
 export class SvgCardComponent implements OnInit {
   @Input() title1Key: string = 'card.backend.title';

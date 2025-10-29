@@ -2,9 +2,10 @@ import { Component, AfterViewInit, HostListener, Input } from '@angular/core';
 import { gsap } from 'gsap';
 
 @Component({
-  selector: 'app-blob-group',
-  templateUrl: './blob-group.component.html',
-  styleUrls: ['./blob-group.component.css'],
+    selector: 'app-blob-group',
+    templateUrl: './blob-group.component.html',
+    styleUrls: ['./blob-group.component.css'],
+    standalone: false
 })
 export class BlobGroupComponent implements AfterViewInit {
   @Input() group!: number;

@@ -15,9 +15,10 @@ import { TranslationService } from '../../services/translation.service';
 gsap.registerPlugin(TextPlugin);
 
 @Component({
-  selector: 'app-title',
-  templateUrl: './title.component.html',
-  styleUrls: ['./title.component.css'],
+    selector: 'app-title',
+    templateUrl: './title.component.html',
+    styleUrls: ['./title.component.css'],
+    standalone: false
 })
 export class TitleComponent implements OnInit, AfterViewInit {
   @ViewChildren('logo') logos!: QueryList<ElementRef>;

@@ -1,10 +1,10 @@
 <h1 align="center">Portfolio Angular de Mathieu Domichard</h1>
 
 <div align="center">
-Mon portfolio personnel développé en Angular 15
+Mon portfolio personnel développé en Angular 20
 </div>
 
-Ce projet est un portfolio personnel créé afin de présenter mes compétences techniques, mes expériences professionnelles, ainsi que mes projets personnels. Il a été entièrement développé avec Angular version 15, utilise GSAP pour des animations dynamiques, et s'inspire largement du design élégant et minimaliste du site [Vivivit Design Annuale 2022](https://www.vivivit.com/events/design-annuale/2022).
+Ce projet est un portfolio personnel créé afin de présenter mes compétences techniques, mes expériences professionnelles, ainsi que mes projets personnels. Il a été entièrement développé avec Angular version 20, utilise GSAP pour des animations dynamiques, et s'inspire largement du design élégant et minimaliste du site [Vivivit Design Annuale 2022](https://www.vivivit.com/events/design-annuale/2022).
 
 Ce portfolio met en avant ma capacité à développer des interfaces modernes et réactives, enrichies par des animations fluides et attractives grâce à GSAP. Il complète mes projets réalisés principalement en Java/Spring.
 
@@ -20,8 +20,8 @@ Ce portfolio met en avant ma capacité à développer des interfaces modernes et
 
 Ce projet a été développé avec :
 
-- Angular 15
-- TypeScript
+- Angular 20
+- TypeScript 5.8
 - HTML / CSS
 - GSAP (GreenSock Animation Platform)
 - Git
