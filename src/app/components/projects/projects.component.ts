@@ -27,7 +27,7 @@ export class ProjectsComponent implements OnInit {
       titre: 'Frequencies Tombola',
       imageUrl: 'https://res.cloudinary.com/dyx38qkbh/image/upload/f_auto,q_auto/v1/Portfolio/frequencies',
       descriptionKey: 'projects.frequencies.description',
-      technologies: ["Angular", "Java", 'PostgreSQL', 'Docker'],
+      technologies: ["Angular 19", "Java", 'PostgreSQL', 'Docker'],
       lienCodeFront: 'https://github.com/Matdomichard/frequencies-tombola-ui',
       lienCodeBack:  'https://github.com/Matdomichard/frequencies-tombola-api'
     },
@@ -43,7 +43,7 @@ export class ProjectsComponent implements OnInit {
       titre: 'Sleep Tracker',
       imageUrl: 'https://res.cloudinary.com/dyx38qkbh/image/upload/v1698760594/Portfolio/zzztracker.jpg',
       descriptionKey: 'projects.sleepTracker.description',
-      technologies: ["Angular", "Java", "Spring Boot", "PostgreSQL"],
+      technologies: ["Angular 20", "Java", "Spring Boot", "PostgreSQL"],
       lienCodeFront: 'https://github.com/Matdomichard/zzztracker-frontend',
       lienCodeBack:  'https://github.com/Matdomichard/CompteArebours',
       lienSite: 'https://zzztracker.vercel.app/'
