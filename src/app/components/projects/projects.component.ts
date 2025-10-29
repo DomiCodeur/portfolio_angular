@@ -27,7 +27,7 @@ export class ProjectsComponent implements OnInit {
       titre: 'Frequencies Tombola',
       imageUrl: 'https://res.cloudinary.com/dyx38qkbh/image/upload/f_auto,q_auto/v1/Portfolio/frequencies',
       descriptionKey: 'projects.frequencies.description',
-      technologies: ["Angular 19", "Java", 'PostgreSQL', 'Docker'],
+      technologies: ["Angular 19", "Java 21", 'Spring Boot', 'PostgreSQL', 'Docker'],
       lienCodeFront: 'https://github.com/Matdomichard/frequencies-tombola-ui',
       lienCodeBack:  'https://github.com/Matdomichard/frequencies-tombola-api'
     },
@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
       titre: 'Codeur Nomade',
       imageUrl: 'https://res.cloudinary.com/dyx38qkbh/image/upload/v1698760398/Portfolio/codeurnomade.png',
       descriptionKey: 'projects.codeurNomade.description',
-      technologies: ['Vue.js', 'Axios', 'API France Travail'],
+      technologies: ['Vue.js 3', 'Axios', 'API France Travail'],
       lienSite: 'https://codeurnomade.vercel.app/',
       lienCode:  'https://github.com/Matdomichard/codeurnomade'
     },
@@ -43,7 +43,7 @@ export class ProjectsComponent implements OnInit {
       titre: 'Sleep Tracker',
       imageUrl: 'https://res.cloudinary.com/dyx38qkbh/image/upload/v1698760594/Portfolio/zzztracker.jpg',
       descriptionKey: 'projects.sleepTracker.description',
-      technologies: ["Angular 20", "Java", "Spring Boot", "PostgreSQL"],
+      technologies: ["Angular 20", "Java 21", "Spring Boot", "PostgreSQL"],
       lienCodeFront: 'https://github.com/Matdomichard/zzztracker-frontend',
       lienCodeBack:  'https://github.com/Matdomichard/CompteArebours',
       lienSite: 'https://zzztracker.vercel.app/'
